@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0f14"><meta name="description" content="فروشگاه آنلاین قطعات یدکی خودرو">
+<title>قطعه‌یار | فروشگاه قطعات یدکی خودرو</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="topbar"><div class="container topbar-in"><span>ارسال به سراسر کشور 🚚</span><span>پشتیبانی: ۰۲۱-۱۲۳۴۵۶۷۸</span></div></div>
+<header class="header"><div class="container nav">
+<a class="logo" href="index.html"><span class="logo-mark">⚙</span><span>قطعه<span>یار</span><small>قطعات یدکی خودرو</small></span></a>
+<nav><a class="active" href="index.html">خانه</a><a href="products.html">فروشگاه</a><a href="products.html?cat=engine">قطعات موتور</a><a href="products.html?cat=brake">ترمز</a><a href="products.html?cat=suspension">جلوبندی</a></nav>
+<div class="actions"><a class="icon-btn" href="account.html" aria-label="حساب">♙</a><a class="cart" href="cart.html">🛒<b id="cartCount">۰</b></a><button class="menu" onclick="toggleMenu()">☰</button></div>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="eyebrow">فروشگاه تخصصی قطعات خودرو</div><h1>قطعه مناسب خودروت رو<br><strong>سریع پیدا کن.</strong></h1><p>قطعات اصلی و باکیفیت برای خودروهای ایرانی و خارجی، با ضمانت اصالت و ارسال سریع.</p>
+<div class="hero-search"><input id="heroSearch" placeholder="نام قطعه، کد فنی یا خودرو را جستجو کنید..."><button onclick="searchFromHero()">🔍 جستجو</button></div>
+<div class="quick"><span>جستجوی سریع:</span><a href="products.html?q=لنت">لنت ترمز</a><a href="products.html?q=فیلتر">فیلتر روغن</a><a href="products.html?q=شمع">شمع</a></div>
+</div><div class="car-art"><div class="glow"></div><div class="car">🚘</div><div class="floating f1">✓ ضمانت اصالت</div><div class="floating f2">⚡ ارسال سریع</div></div></div></section>
+
+<section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">انتخاب هوشمند</span><h2>قطعه‌ات را بر اساس خودرو پیدا کن</h2></div></div>
+<div class="vehicle-box"><div class="vehicle-icon">🚗</div><div class="select-wrap"><label>برند خودرو</label><select id="brand"><option value="">انتخاب برند</option><option>ایران خودرو</option><option>سایپا</option><option>کرمان موتور</option><option>مدیران خودرو</option><option>تویوتا</option><option>هیوندای</option><option>کیا</option></select></div><div class="select-wrap"><label>مدل خودرو</label><select id="model"><option>ابتدا برند را انتخاب کنید</option></select></div><button class="primary" onclick="vehicleSearch()">مشاهده قطعات ←</button></div></div></section>
+
+<section class="section categories"><div class="container"><div class="section-head"><div><span class="eyebrow">دسته‌بندی</span><h2>چه قطعه‌ای نیاز داری؟</h2></div><a class="more" href="products.html">مشاهده همه ←</a></div>
+<div class="cat-grid">
+<a class="cat" href="products.html?cat=engine"><i>🔩</i><b>موتور و قطعات</b><small>۲۴۸ محصول</small></a>
+<a class="cat" href="products.html?cat=brake"><i>🛞</i><b>سیستم ترمز</b><small>۱۸۶ محصول</small></a>
+<a class="cat" href="products.html?cat=suspension"><i>⚙️</i><b>جلوبندی و تعلیق</b><small>۱۵۲ محصول</small></a>
+<a class="cat" href="products.html?cat=electric"><i>🔋</i><b>برق و الکترونیک</b><small>۱۳۷ محصول</small></a>
+<a class="cat" href="products.html?cat=body"><i>🚘</i><b>بدنه و تزئینات</b><small>۲۹۴ محصول</small></a>
+<a class="cat" href="products.html?cat=consumable"><i>🧴</i><b>لوازم مصرفی</b><small>۳۶۱ محصول</small></a>
+</div></div></section>
+
+<section class="section products-sec"><div class="container"><div class="section-head"><div><span class="eyebrow">پیشنهاد قطعه‌یار</span><h2>پرفروش‌ترین قطعات</h2></div><a class="more" href="products.html">همه محصولات ←</a></div><div id="featuredProducts" class="product-grid"></div></div></section>
+
+<section class="features"><div class="container feature-grid"><div><strong>✓</strong><b>ضمانت اصالت کالا</b><span>تضمین اصل بودن قطعات</span></div><div><strong>↯</strong><b>ارسال سریع</b><span>ارسال به سراسر ایران</span></div><div><strong>↺</strong><b>۷ روز ضمانت بازگشت</b><span>خرید بدون نگرانی</span></div><div><strong>☎</strong><b>پشتیبانی تخصصی</b><span>قبل و بعد از خرید</span></div></div></section>
+</main>
+
+<footer><div class="container footer-grid"><div><a class="logo" href="#"><span class="logo-mark">⚙</span><span>قطعه<span>یار</span><small>قطعات یدکی خودرو</small></span></a><p>مرجع آنلاین خرید قطعات یدکی خودرو با تضمین اصالت و کیفیت.</p></div><div><h4>دسترسی سریع</h4><a href="products.html">فروشگاه</a><a href="account.html">حساب کاربری</a><a href="cart.html">سبد خرید</a></div><div><h4>خدمات مشتریان</h4><a href="#">پیگیری سفارش</a><a href="#">شرایط بازگشت</a><a href="#">سوالات متداول</a></div><div><h4>ارتباط با ما</h4><p>☎ ۰۲۱-۱۲۳۴۵۶۷۸</p><p>✉ support@ghatehyar.ir</p><p>شنبه تا پنجشنبه، ۹ تا ۱۸</p></div></div><div class="copyright">© ۱۴۰۵ قطعه‌یار — تمامی حقوق محفوظ است.</div></footer>
+<script src="js/app.js"></script><script src="js/products.js"></script>
+</body></html>
